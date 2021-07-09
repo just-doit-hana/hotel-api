@@ -1,0 +1,64 @@
+{
+  "hotel": [
+    {
+      "id": 9,
+      "name": "Muong Thanh Hotel",
+      "logo": "https://nhadatnhatrangonline.com/wp-content/uploads/2020/08/M%C6%B0%E1%BB%9Dng-Thanh-Group.jpg",
+      "address": "Phu My Hung"
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 11
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 12
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 13
+    },
+    {
+      "name": "Thong Nhat",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 14
+    },
+    {
+      "name": "Tran Huy ttest ",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 15
+    },
+    {
+      "name": "Tran Huy ttest ",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 16
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 17
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 18
+    },
+    {
+      "name": "Tran Huy",
+      "logo": "https://i.pinimg.com/originals/de/f7/b6/def7b694904830d5804ee5975b69e9ed.png",
+      "address": "51 Ly Phuc Man Street, Binh Thuan Ward, District 7",
+      "id": 19
+    }
+  ]
+}

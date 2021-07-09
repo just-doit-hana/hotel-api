@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>List Hotels</title>
+</head>
+
+<body>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NAME</th>
+        <th scope="col">LOGO</th>
+        <th scope="col">ADDRESS</th>
+        <th>
+          <a class="btn btn-sm btn-success" href="add-hotel.html">Thêm mới</a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="api/list-api.js"></script>
+
+
+  <!-- Get List Hotels -->
+  <!-- <script>
+    var hotelApi = 'http://localhost:3000/hotel';
+    axios.get(hotelApi)
+      .then(response => {
+        if (response.statusText == "OK") {
+          document.querySelector('tbody').innerHTML = '';
+          var data = response.data;
+          var content = ``;
+          data.forEach(element => {
+            content += `
+                    <tr class = "row-${element.id}">
+                      <td>${element.id}</td>
+                      <td>${element.name}</td>
+                      <td>
+                        <img src= "${element.logo}" width = "100px" class = "img img-avatar">
+                      </td>
+                      <td>${element.address}</td>
+                      <td>
+                      <a href = "edit-hotel.html?id=${element.id}" class="btn btn-primary">Edit</a>  
+                      <button class = "btn btn-danger" onclick = "removeHotel(${element.id})"> Delete</button>
+                      </td>
+                    </tr>          
+              `
+          });
+          document.querySelector('tbody').innerHTML = content;
+
+        }
+      })
+
+    // Delete Hotel 
+    function removeHotel(id) {
+      // Confirm modal
+      Swal.fire({
+        title: 'Chắc chắn xóa hotels?',
+        text: "Sau khi xóa sẽ không lấy lại dữ liệu được!",
+        icon: 'danger',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Đồng ý!',
+        cancelButtonText: 'Không đồng ý!'
+      })
+        .then((result) => {
+          if (result.value) {
+            var deleteUrl = hotelApi + "/" + id;
+            axios.delete(deleteUrl)
+              .then(res => {
+                console.log(res)
+              })
+              .then(() => {
+                var removeElement = document.querySelector('.row-' + id);
+                removeElement.remove();
+                Swal.fire({
+                  position: 'center',
+                  icon: 'danger',
+                  title: 'Đã xóa',
+                  showConfirmButton: false,
+                  timer: 1500
+                })
+              })
+          }
+        })
+    }
+  </script> -->
+</body>
+
+</html>
